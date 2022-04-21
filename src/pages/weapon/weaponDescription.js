@@ -31,11 +31,11 @@ const WeaponDescription = (props) => {
                         </>)}
                   </>
 
-                  <p className='weapon-display-name'>Weapon Skins</p>
                </div>
             )
             }
          </div >
+         <p className='weapon-display-name'>Weapon Skins</p>
          <div className="skin-container">
             {(props.weapon) &&
                props.weapon.skins.map((skin, key) => {
@@ -45,7 +45,7 @@ const WeaponDescription = (props) => {
                            (skin.displayName.includes('Standard')) ?
                               (<></>) :
                               (<div>
-                                 <img src={skin.displayIcon} alt="NA" />
+                                 <img src={skin.displayIcon} alt="Not Available" />
                                  <p key={key}>{skin.displayName}</p>
                               </div>)
 

@@ -1,8 +1,8 @@
-/* .weapon-selected {
-   background-color: #CC704B;
-   border-radius: 3%;
+.weapon-selected {
+   background-color: #f0e8e4;
+   border-radius: 3rem;
    padding: 1rem;
-} */
+} 
 
 
 .weapon-container {
@@ -16,6 +16,7 @@
 }
 
 .weapon-display-name {
+   text-align: center;
    margin-top: 2rem;
    font-weight: 700;
    font-family: sans-serif;

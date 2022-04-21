@@ -25,7 +25,7 @@ const AgentDescription = (props) => {
 
             <div className='agent-container'>
                <div className='agent-left-container'>
-                  <img src={props.agent.bustPortrait} alt="NA" className='agent-icon' />
+                  <img src={props.agent.bustPortrait} alt="Not Available" className='agent-icon' />
                   <div className='role-container'>
                      <img src={props.agent.role.displayIcon} alt="NA" className='role-icon' />
                      <p>{props.agent.role.displayName}</p>
