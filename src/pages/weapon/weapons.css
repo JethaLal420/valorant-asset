@@ -1,0 +1,27 @@
+
+.main-container {
+   /* padding: 0rem 0rem; */
+}
+
+.weapon-selection {
+   margin: 3rem 0rem;
+   /* background-color: brown; */
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.weapon {
+   margin: 1rem auto;
+   /* padding: 2rem; */
+   border-bottom: 3px solid rgb(171, 214, 224);
+   font-size: large;
+   font-weight: 400;
+}
+
+.weapon-display-icon {
+   max-width: 250px;
+}
+
+.divider-line {
+   border-top: 3px solid rgb(14, 10, 10)
+}

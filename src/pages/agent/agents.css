@@ -1,0 +1,25 @@
+
+.main-container {
+   /* padding: 0rem 0rem; */
+}
+
+.agent-selection {
+   margin: 3rem 0rem;
+   /* background-color: brown; */
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.agent {
+   margin: 1rem auto;
+   /* padding: 2rem; */
+   border-bottom: 3px solid rgb(171, 214, 224);
+}
+
+.agent-display-icon {
+   max-width: 150px;
+}
+
+.divider-line {
+   border-top: 3px solid rgb(14, 10, 10)
+}

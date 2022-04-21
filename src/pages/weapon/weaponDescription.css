@@ -1,0 +1,42 @@
+/* .weapon-selected {
+   background-color: #CC704B;
+   border-radius: 3%;
+   padding: 1rem;
+} */
+
+
+.weapon-container {
+   text-align: center;
+   font-size: large;
+   font-weight: 400;
+}
+
+.weapon-category-container {
+   margin-top: 1rem;
+}
+
+.weapon-display-name {
+   margin-top: 2rem;
+   font-weight: 700;
+   font-family: sans-serif;
+   text-decoration: underline;
+}
+
+.skin-container {
+   display: flex;
+   flex-wrap: wrap;
+}
+.skin-container p{
+   margin-top: 1rem;
+   font-size: large;
+   font-weight: 300;
+}
+
+.skin-container img {
+   max-width: 55vh;
+}
+
+.skin-container-card {
+   margin: 2rem;
+   text-align: center;
+}

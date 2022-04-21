@@ -1,0 +1,60 @@
+.agent-selected {
+   background-color: #CC704B;
+   /* border-radius: 3%; */
+   padding: 1rem;
+}
+
+.agent-icon {
+   max-width: 200px;
+}
+
+.role-icon {
+   max-width: 50px;
+}
+
+.audio-player {
+   max-width: 250px;
+   border-radius: 0%;
+}
+
+.audio-player::-webkit-media-controls-panel {
+  background-color: #98cdff;
+  /* border: 10px solid red; */
+  border-radius: 0;
+}
+
+.audio-player::-webkit-media-controls-mute-button {
+  background-color: #d4dfe2;
+  border-radius: 100%;
+}
+
+.agent-left-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+      color: #FFFBE7;
+      font-size: medium;
+      font-family: cursive;
+
+}
+
+.agent-right-container {
+   font-size: larger;
+   font-family: cursive;
+   color: #FFFBE7;
+   padding: 1.5rem;
+   /* text-align: center; */
+}
+
+.agent-container {
+   display: flex;
+}
+
+.role-container {
+   margin-top: 1rem;
+}
+
+.agent-display-name {
+   font-weight: 700;
+   color: #46244C;
+}
