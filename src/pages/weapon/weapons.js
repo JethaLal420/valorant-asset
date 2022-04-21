@@ -35,7 +35,7 @@ const Weapons = () => {
 
    return (
       <div className="main-container">
-         <p style={{ 'font-size': 'larger' }} ref={refWeaponSelectGuide}>Select Any Agent </p>
+         <p style={{ 'font-size': 'larger' }} ref={refWeaponSelectGuide}>Select Any Weapon to get information </p>
          <WeaponDescription weapon={selectedWeapon} />
          <hr className="divider-line" />
          <div className="weapon-selection">
