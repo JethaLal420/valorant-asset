@@ -18,6 +18,10 @@
    font-weight: 400;
 }
 
+.weapon :hover {
+   cursor: pointer;
+}
+
 .weapon-display-icon {
    max-width: 250px;
 }
